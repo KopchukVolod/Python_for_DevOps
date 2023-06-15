@@ -1,0 +1,37 @@
+[2021-12-20 05:19:33,438] {DEBUG} __main__: #19 - Starting Division!
+[2021-12-20 05:19:37,571] {INFO} __main__: #21 - 6.0
+[2021-12-20 05:19:38,552] {INFO} __main__: #23 - 3.0
+[2021-12-20 05:32:55,584] {DEBUG} __main__: #20 - Starting Division!
+[2021-12-20 05:32:57,792] {INFO} __main__: #23 - 6.0
+[2021-12-20 05:32:59,082] {INFO} __main__: #25 - 0.0
+[2021-12-20 05:32:59,082] {ERROR} __main__: #30 - Attempting to divide by 0!
+[2021-12-20 05:32:59,082] {WARNING} __main__: #37 - The result value is None!
+Starting Division!
+6.0
+3.0
+[2021-12-20 05:44:02,138] {DEBUG} - Starting Division!
+[2021-12-20 05:47:05,586] {INFO} - 6.0
+[2021-12-20 05:47:14,760] {DEBUG} __main__: #20 - Starting Division!
+[2021-12-20 05:47:15,692] {INFO} __main__: #23 - 6.0
+[2021-12-20 05:47:16,081] {INFO} __main__: #25 - 3.0
+[2021-12-20 05:47:39,053] {DEBUG} __main__: #20 - Starting Division!
+[2021-12-20 05:47:40,893] {INFO} __main__: #23 - 6.0
+[2021-12-20 05:47:41,272] {INFO} __main__: #25 - 3.0
+[2023-06-15 11:25:22,022] {DEBUG} __main__: #18 - Starting Division!
+[2023-06-15 15:25:34,564] {DEBUG} __main__: #22 - Starting Division!
+[2023-06-15 15:25:37,795] {INFO} __main__: #25 - 5.0
+[2023-06-15 15:25:38,653] {INFO} __main__: #27 - 5.0
+[2023-06-15 15:25:48,191] {DEBUG} __main__: #22 - Starting Division!
+[2023-06-15 19:48:19,660] {DEBUG} __main__: #22 - Starting Division!
+[2023-06-15 19:48:24,406] {INFO} __main__: #25 - 5.0
+[2023-06-15 19:48:26,110] {INFO} __main__: #27 - 5.0
+[2023-06-15 19:48:28,811] {DEBUG} __main__: #22 - Starting Division!
+[2023-06-15 19:48:30,469] {INFO} __main__: #25 - 0.0
+[2023-06-15 19:48:32,011] {INFO} __main__: #27 - 0.0
+[2023-06-15 19:48:32,011] {ERROR} __main__: #32 - Attempting to divide by 0!
+[2023-06-15 19:48:32,011] {WARNING} __main__: #39 - The result value is None!
+[2023-06-15 19:48:44,798] {DEBUG} __main__: #22 - Starting Division!
+[2023-06-15 19:48:50,660] {INFO} __main__: #25 - 78.0
+[2023-06-15 19:48:52,683] {INFO} __main__: #27 - 0.0
+[2023-06-15 19:48:52,683] {ERROR} __main__: #32 - Attempting to divide by 0!
+[2023-06-15 19:48:52,683] {WARNING} __main__: #39 - The result value is None!
