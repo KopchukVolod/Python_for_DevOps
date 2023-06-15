@@ -78,3 +78,32 @@ logger.info('Це інформаційне повідомлення')
 logger.warning('Це попередження')
 logger.error('Це помилка')
 
+## Встановлення рівня логування (Setting the Log Level)
+За замовчуванням, рівень логування встановлений на WARNING. Щоб змінити цей рівень, використовуйте метод setLevel():
+
+logger.setLevel(logging.DEBUG)
+  
+## Логування в файл (Logging to a File)
+Logger дозволяє зберігати повідомлення в лог-файлі. Для цього необхідно налаштувати об'єкт FileHandler та додати його до логера:
+
+file_handler = logging.FileHandler('my_app.log')
+logger.addHandler(file_handler)
+
+## Логування на консоль та в файл (Logging to Console and File)
+Щоб виводити повідомлення одночасно на консоль та в лог-файл, використовуйте StreamHandler:
+  
+console_handler = logging.StreamHandler()
+file_handler = logging.FileHandler('my_app.log')
+logger.addHandler(console_handler)
+logger.addHandler(file_handler)
+
+## Форматування логів (Formatting the Logs)
+Логер дозволяє налаштовувати формат виведення повідомлень. Використовуйте метод Formatter для вказівки потрібного формату:
+
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(formatter)
+
+## Використання basicConfig()
+Існує ще один спосіб налаштування логера - за допомогою методу basicConfig(). Цей метод автоматично налаштовує об'єкт логування з вказаними параметрами:
+
+logging.basicConfig(filename='my_app.log', level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
