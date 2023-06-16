@@ -62,16 +62,15 @@ log.close()
 
 ## Приклад використання
 ```python
-import logger
+import logging
+import sys
 
-# Ініціалізувати об'єкт логування
-log = logger.Logger('my_app.log')
-
-# Додати повідомлення
-log.info('Це інформаційне повідомлення')
-
-# Закрити лог-файл
-log.close()
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+file_logger = logging.FileHandler("cashier.log")
+formatter1 = logging.Formatter("[%(asctime)s] {%(levelname)s} %(name)s: #%(lineno)d - %(message)s")
+file_logger.setFormatter(formatter1)
+logger.addHandler(file_logger)
 ``` 
 
 ## Рівні логування (Log Levels)
