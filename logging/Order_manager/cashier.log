@@ -1,0 +1,74 @@
+
+2023-06-16 16:33:30,802 - __main__ - INFO - Selected menu choice: H
+2023-06-16 16:33:33,266 - __main__ - INFO - Selected quantity for Hamburger: 2
+2023-06-16 16:33:37,171 - __main__ - INFO - Selected menu choice: C
+2023-06-16 16:33:39,158 - __main__ - INFO - Selected quantity for Cheeseburger: 50
+2023-06-16 16:33:44,776 - __main__ - INFO - Selected menu choice: E
+2023-06-16 16:33:47,237 - __main__ - INFO - Amount paid by customer: 100000.00
+2023-06-16 16:33:47,237 - __main__ - INFO - Change for the customer: 99745.52
+2023-06-16 16:47:05,878 - __main__ - INFO - Selected menu choice: H
+2023-06-16 16:47:13,883 - __main__ - WARNING - Invalid quantity entered for Hamburger
+2023-06-16 16:47:21,449 - __main__ - INFO - Selected menu choice: F
+2023-06-16 16:47:24,669 - __main__ - INFO - Selected quantity for Fries: 9
+2023-06-16 16:47:26,451 - __main__ - INFO - Selected menu choice: H
+2023-06-16 16:47:28,444 - __main__ - INFO - Selected quantity for Hamburger: 8
+2023-06-16 16:47:38,184 - __main__ - INFO - Selected menu choice: C
+2023-06-16 16:47:40,812 - __main__ - INFO - Selected quantity for Cheeseburger: 90
+2023-06-16 16:47:44,932 - __main__ - INFO - Selected menu choice: E
+2023-06-16 16:47:50,113 - __main__ - INFO - Amount paid by customer: 800000.00
+2023-06-16 16:47:50,114 - __main__ - INFO - Change for the customer: 799505.99
+2023-06-16 16:49:01,158 - __main__ - INFO - Selected menu choice: M
+2023-06-16 16:49:04,284 - __main__ - INFO - Selected menu choice: B
+2023-06-16 16:49:06,536 - __main__ - INFO - Selected menu choice: V
+2023-06-16 16:49:08,525 - __main__ - INFO - Selected menu choice: Z
+2023-06-16 16:49:11,222 - __main__ - INFO - Selected menu choice: 8
+2023-06-16 16:49:12,859 - __main__ - INFO - Selected menu choice: 7
+2023-06-16 16:49:19,447 - __main__ - INFO - Selected menu choice: -9
+2023-06-16 16:49:25,215 - __main__ - INFO - Selected menu choice: F
+2023-06-16 16:49:28,757 - __main__ - INFO - Selected quantity for Fries: -2
+2023-06-16 16:49:28,757 - __main__ - WARNING - Negative or zero quantity entered for Fries
+2023-06-16 16:49:41,768 - __main__ - INFO - Selected menu choice: F
+2023-06-16 16:49:43,674 - __main__ - INFO - Selected quantity for Fries: 0
+2023-06-16 16:49:43,674 - __main__ - WARNING - Negative or zero quantity entered for Fries
+2023-06-16 16:49:47,277 - __main__ - INFO - Selected menu choice: F
+2023-06-16 16:49:50,353 - __main__ - INFO - Selected quantity for Fries: -10
+2023-06-16 16:49:50,353 - __main__ - WARNING - Negative or zero quantity entered for Fries
+2023-06-16 16:49:59,212 - __main__ - INFO - Selected menu choice: H
+2023-06-16 16:50:12,708 - __main__ - WARNING - Invalid quantity entered for Hamburger
+2023-06-16 16:50:16,307 - __main__ - INFO - Selected menu choice: H
+2023-06-16 16:50:19,207 - __main__ - INFO - Selected quantity for Hamburger: 7
+2023-06-16 16:50:26,837 - __main__ - INFO - Selected menu choice: H
+2023-06-16 16:50:30,157 - __main__ - INFO - Selected quantity for Hamburger: 7
+2023-06-16 16:50:34,339 - __main__ - INFO - Selected menu choice: E
+2023-06-16 16:50:37,708 - __main__ - INFO - Amount paid by customer: 1.00
+2023-06-16 16:50:37,708 - __main__ - WARNING - Insufficient payment. Amount paid: 1.00
+2023-06-16 16:50:46,783 - __main__ - INFO - Amount paid by customer (second attempt): 20.00
+2023-06-16 16:50:46,783 - __main__ - INFO - Change for the customer: -24.85
+2023-06-16 16:50:46,783 - __main__ - WARNING - Negative change for the customer: -24.85
+2023-06-16 17:13:16,269 - __main__ - INFO - Selected menu choice: X
+2023-06-16 17:13:19,117 - __main__ - INFO - Selected menu choice: H
+2023-06-16 17:13:28,866 - __main__ - INFO - Selected quantity for Hamburger: 0
+2023-06-16 17:13:28,866 - __main__ - WARNING - Negative or zero quantity entered for Hamburger, Using quantity of 1.
+2023-06-16 17:13:33,821 - __main__ - INFO - Selected menu choice: H
+2023-06-16 17:13:36,818 - __main__ - WARNING - Invalid quantity entered for Hamburger
+2023-06-16 17:13:42,418 - __main__ - INFO - Selected menu choice: E
+2023-06-16 17:13:52,548 - __main__ - INFO - Selected menu choice: C
+2023-06-16 17:13:54,178 - __main__ - WARNING - Invalid quantity entered for Cheeseburger
+2023-06-16 17:13:59,819 - __main__ - INFO - Selected menu choice: C
+2023-06-16 17:14:02,040 - __main__ - INFO - Selected quantity for Cheeseburger: 8
+2023-06-16 17:14:08,746 - __main__ - INFO - Selected menu choice: H
+2023-06-16 17:14:10,925 - __main__ - INFO - Selected quantity for Hamburger: 8
+2023-06-16 17:14:12,919 - __main__ - INFO - Selected menu choice: F
+2023-06-16 17:14:17,381 - __main__ - INFO - Selected quantity for Fries: -9
+2023-06-16 17:14:17,381 - __main__ - WARNING - Negative or zero quantity entered for Fries, Using quantity of 1.
+2023-06-16 17:14:21,417 - __main__ - INFO - Selected menu choice: E
+2023-06-16 17:14:25,496 - __main__ - INFO - Amount paid by customer: 5.00
+2023-06-16 17:14:25,496 - __main__ - WARNING - Insufficient payment. Amount paid: 5.00
+2023-06-16 17:14:28,142 - __main__ - INFO - Amount paid by customer (second attempt): 2.00
+2023-06-16 17:14:28,142 - __main__ - INFO - Change for the customer: -65.33
+2023-06-16 17:14:28,142 - __main__ - WARNING - Negative change for the customer: -65.33
+2023-06-16 17:14:48,062 - __main__ - INFO - Selected menu choice: H
+2023-06-16 17:14:49,377 - __main__ - INFO - Selected quantity for Hamburger: 8
+2023-06-16 17:14:52,262 - __main__ - INFO - Selected menu choice: E
+2023-06-16 17:14:54,817 - __main__ - INFO - Amount paid by customer: 8000.00
+2023-06-16 17:14:54,817 - __main__ - INFO - Change for the customer: 7980.08
