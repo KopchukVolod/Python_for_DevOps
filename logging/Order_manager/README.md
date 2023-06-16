@@ -126,3 +126,13 @@ file_handler.setFormatter(formatter)
 ```python
 logging.basicConfig(filename='my_app.log', level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 ``` 
+## Використання StreamHandler()
+Вивід логів у консоль
+```python
+import logging
+import sys
+
+logger = logging.getLogger(__name__)
+stream_handler = logging.StreamHandler(sys.stdout)
+logger.addHandler(stream_handler)
+``` 
